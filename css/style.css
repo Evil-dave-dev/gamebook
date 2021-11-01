@@ -1,3 +1,9 @@
 #gamebook {
     min-height: 30vh;
 }
+
+/* PARALLAX */
+.banner {
+    margin-top: 73px;
+    min-height: 200px; 
+}
