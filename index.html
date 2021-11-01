@@ -13,11 +13,16 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="https://www.gallimard-jeunesse.fr/collection/un-livre-dont-vous-etes-le-heros/" target="_blank">
                 <img src="img/logo.png" alt="logo" class="d-inline-block align-text-top">
             </a>
+            <div class="d-flex">
+                <span class="navbar-text">
+                    Version 05
+                </span>
+            </div>
         </div>
     </nav>
 
@@ -29,18 +34,11 @@
     </div>
 
     <!-- CONTENT -->
-    <div class="container">
-        <div class="row mt-5">
-            <figure class="text-end">
-                <blockquote class="blockquote">
-                    <p>Version 04</p>
-                </blockquote>
-            </figure>
-        </div>
+    <div class="container" id="meca">
         <div class="row">
-            <h2>Votre itinéraire</h2>
-            <div class="border" id="gamebook" data-tippy-content="Veuillez choisir votre aventure">
-
+            <h2 class="bg-secondary opacity-75 text-white rounded-top mb-0" id="meca-title">Votre itinéraire</h2>
+            <div class="bg-secondary d-flex align-items-end justify-content-center" id="gamebook" data-tippy-content="Veuillez choisir votre aventure">
+                <div class="case border border-2 bg-light"></div>
             </div>
         </div>
     </div>

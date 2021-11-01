@@ -1,9 +1,37 @@
-#gamebook {
-    min-height: 30vh;
+.banner {
+  margin-top: 73px;
+  min-height: 200px;
 }
 
-/* PARALLAX */
-.banner {
-    margin-top: 73px;
-    min-height: 200px; 
+#version {
+  margin-top: 73px;
 }
+
+#meca {
+  margin-top: 100px;
+}
+
+#meca-title {
+  width: auto;
+}
+
+#gamebook {
+  min-height: 30vh;
+  padding-top: calc(var(--bs-gutter-x) * .5);
+  padding-bottom: calc(var(--bs-gutter-x) * .5);
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+.case {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  #meca {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
