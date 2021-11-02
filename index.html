@@ -27,7 +27,7 @@
     </nav>
 
     <!-- PARALLAX -->
-    <div class="container-fluid banner d-none d-lg-block">
+    <div class="container-fluid banner d-none d-md-block">
         <div class="row">
             <img src="img/banner01.jpg" class="img-fluid" alt="...">
         </div>
@@ -37,8 +37,26 @@
     <div class="container" id="meca">
         <div class="row">
             <h2 class="bg-secondary opacity-75 text-white rounded-top mb-0" id="meca-title">Votre itinéraire</h2>
-            <div class="bg-secondary d-flex align-items-end justify-content-center" id="gamebook" data-tippy-content="Veuillez choisir votre aventure">
-                <div class="case border border-2 bg-light"></div>
+            <div class="bg-secondary d-flex align-items-end justify-content-center" id="gamebook">
+                <div class="case border border-2 bg-light" data-tippy-content="Départ de l'aventure" data-bs-toggle="modal" data-bs-target="#addStep" data-bs-whatever="@mdo">1</div>
+                <!-- MODAL -->
+                <div class="modal fade" id="addStep" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Prochaine étape</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                </form>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
     </div>
